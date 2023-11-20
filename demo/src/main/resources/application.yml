@@ -8,24 +8,6 @@ spring:
         credential:
           client-id: aea554f2-1795-482a-a62d-d6d5bc530b2c
           client-secret: hqC8Q~mVF63fjmbjNiySvIBKRKvHS5xT2TYNRaIw
-#spring:
-#  security:
-#    oauth2:
-#      client:
-#        provider:
-#          azure:
-#            issuer-uri: https://login.microsoftonline.com/e02b1d3d-73b0-4c07-b7fe-35b2745810ea/v2.0
-#        registration:
-#          azure-dev:
-#            provider: azure
-#            client-id: aea554f2-1795-482a-a62d-d6d5bc530b2c
-#            client-secret: hqC8Q~mVF63fjmbjNiySvIBKRKvHS5xT2TYNRaIw
-#
-#            scope:
-#              - openid
-#              - email
-#              - profile
-
 server:
   port: 8080
   forward-headers-strategy: native
